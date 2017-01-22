@@ -1,0 +1,22 @@
+{
+    "name": "teambot-hello",
+    "version": "0.0.1",
+    "description": "Sample getting started skill for Teambot",
+    "main": "behaviour.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/teambot-club/teambot-hello.git"
+    },
+    "keywords": [
+        "teambot"
+    ],
+    "author": "Teambot Team",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/teambot-club/teambot-hello/issues"
+    },
+    "homepage": "https://github.com/teambot-club/teambot-hello#readme"
+}
