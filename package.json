@@ -2,7 +2,6 @@
     "name": "teambot-hello",
     "version": "0.0.1",
     "description": "Sample getting started skill for Teambot",
-    "main": "behaviour.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -11,7 +10,8 @@
         "url": "git+https://github.com/teambot-club/teambot-hello.git"
     },
     "keywords": [
-        "teambot"
+        "ecosystem:teambot",
+        "teambot:slack"
     ],
     "author": "Teambot Team",
     "license": "MIT",

@@ -2,7 +2,7 @@
 
 var Hello = function(controller, middleware) {
 
-    var conversationSource = require('./source.js')(controller);
+    var conversationSource = require('./hello.js')(controller);
 
     controller.hears(['hello|hi|hallo'], 'direct_message,direct_mention,mention', middleware.process, conversationSource.hello);
 
